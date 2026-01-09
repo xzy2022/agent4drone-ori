@@ -559,4 +559,10 @@ def create_uav_tools(client: UAVAPIClient) -> list:
         send_message,
         broadcast,
         charge,
+        # ------------- 整个被注释掉的 -------------
+        # get_targets
+        # get_obstacles
+        # move_along_path
+        # ------------- 上面没有定义 ---------------
+        # get_waypoints
     ]
